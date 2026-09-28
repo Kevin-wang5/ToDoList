@@ -1,0 +1,45 @@
+main{
+    display:grid;
+    position:absolute;
+    left:10px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+main h1{
+    display:flex;
+    position:relative;
+    left: 20px;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+    
+}
+
+.Input{
+    display:flex;
+    position:relative;
+    left:30px;
+    gap:10px;
+}
+
+
+li{
+    display:list-item;
+    padding:10px;
+    border:10px;
+    
+}
+.Form
+{
+    font-family:'Courier New', Courier, monospace;
+}
+button
+{
+    margin-left:10px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Finish-text
+{
+    text-decoration: line-through;
+}
