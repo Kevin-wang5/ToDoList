@@ -53,6 +53,7 @@ function addButton(li)
     FinishButton.addEventListener('click',()=>
     {
         li.classList.add("Finish-text");
+        FinishButton.remove();
         tasks.forEach((item)=>{
             if(item.id===Number(li.dataset.id))
             {
